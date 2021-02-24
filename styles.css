@@ -1,11 +1,15 @@
 body{
+    width: 100%;
+    max-width: 100vw;
+    height: auto;
+    margin: 0;
+    overflow-x: hidden;
     font-family: 'Trebuchet MS', sans-serif;
 }
 
 h1{
     font-size: 45px;
-    margin:0px;
-    
+    margin:0px;  
 }
 h3{
     font-size: 20px;
@@ -23,9 +27,9 @@ h1 h3 {
 }
 .logo{
     background-image:url("images/twitter-homepage-image.png");
-    background-size: 600px;
+    background-size: 500px;
     background-repeat: no-repeat;
-    width: 800px;
+    width: 50%;
     height: auto;
 }
 .container1{
@@ -40,7 +44,7 @@ h1 h3 {
     margin: 5px 0 0 0; 
 }
 .container2{
-    width: 800px;
+    width: 50%;
     font-style: bold;
     padding: 25px 0px 25px 0px;
     display: flex;
