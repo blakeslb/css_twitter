@@ -1,0 +1,93 @@
+body{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    font-size: 45px;
+    margin:0px;
+    
+}
+h3{
+    font-size: 20px;
+    width:300px;
+}
+h1 h3 {
+    font-weight: bold;
+}
+
+.logo img{
+    display: flex;
+    padding: 75px 50px 75px 100px;
+    width: 200px;
+     
+}
+.logo{
+    background-image:url("images/twitter-homepage-image.png");
+    background-size: 600px;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: auto;
+}
+.container1{
+    
+    display: flex;
+  
+}
+.container2 img{
+    display: flex;
+    width: 50px; 
+    padding: 10px 0 20px 0;   
+    margin: 5px 0 0 0; 
+}
+.container2{
+    width: 800px;
+    font-style: bold;
+    padding: 25px 0px 25px 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 20px;
+}
+footer{
+    display: flex;
+    justify-content; center;
+}
+
+.nav1 {
+    list-style: none;
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.nav2{
+    width: 600px;
+    padding: 5px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer li {
+    padding: 7px;
+    font-size: .7em;
+    color: #5b7083;
+}
+button {
+    font-size: 11px;
+    font-weight: bold;
+    width: 220px;
+    height:32px;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: #38A1F2;
+    color: white;
+    border:none;
+}
+#button2{
+    background-color: white;
+    color: #38A1F2;
+    border: 1px solid #38A1F2;
+
+}
